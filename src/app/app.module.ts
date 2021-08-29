@@ -3,22 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InputsDinamicosModule } from './inputs-dinamicos/inputs-dinamicos.module';
-import { EntidadComponent } from './dinamic-inputs/entidad/entidad.component';
+import { FormDinamicModule } from './form-dinamic/form-dinamic.module';
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    EntidadComponent,
+
 
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    InputsDinamicosModule
+    FormDinamicModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
