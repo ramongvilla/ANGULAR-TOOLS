@@ -1,0 +1,12 @@
+<p>inputs works!</p>
+<div class="cotainer" *ngFor="let input of DATA">
+    <form >
+    <!-- <form [formGroup]="conceptosFormGroup" (ngSubmit)="addInputs()"> -->
+        <label for={{input.idCampos}} class="form-label">{{input.label}}</label>
+        <input type="text" class="form-control"  formControlName="prueba"  name="prueba"  placeholder={{input.label}}>
+        
+        <!-- <input type={{input.type}} placeholder={{input.type}}> -->
+        <!-- <input type="text" class="form-control"  formControlName="{{input.idCampos}}"  name={{input.idCampos}}  placeholder={{input.label}}> -->
+    </form>
+</div>
+<button type="submit" (click)="addConcepto()">lovo</button>
