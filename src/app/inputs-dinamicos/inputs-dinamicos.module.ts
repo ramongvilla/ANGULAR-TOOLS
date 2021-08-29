@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
 import { DynamicFormComponent } from './components/dynamic-form/dynamic-form.component';
 import { DynamicFormQuestionComponent } from './components/dynamic-form-question/dynamic-form-question.component';
+import { InputsDinamicosComponent } from './inputs-dinamicos.component';
 
 
 
@@ -15,7 +16,8 @@ import { DynamicFormQuestionComponent } from './components/dynamic-form-question
     InputsComponent,
     HomeComponent,
     DynamicFormComponent,
-    DynamicFormQuestionComponent
+    DynamicFormQuestionComponent,
+    InputsDinamicosComponent
   ],
   imports: [
     CommonModule,
