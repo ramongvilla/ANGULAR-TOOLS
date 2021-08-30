@@ -11,32 +11,35 @@ export class CreateEntitiesComponent implements OnInit {
       label: 'Name',
       value: '',
       type: 'text',
-      validation: {
+      // validation: {
         required: true,
-        minLength: 5,
-        maxLength: 10
+        // minLength: 3,
+        // maxLength: 10,
+        maxLength: 8,
+        // email:true
       },
-    },
-    hola: {
-      label: 'Name',
+    name1: {
+      label: 'email',
       value: '',
       type: 'text',
-      validation: {
+      // validation: {
         required: true,
-        minLength: 5,
-        maxLength: 10
+        // minLength: 3,
+        maxLength: 5,
       },
-    },
-    posya: {
-      label: 'Name',
-      value: '',
-      type: 'text',
-      validation: {
-        required: true,
-        minLength: 5,
-        maxLength: 10
+      name8: {
+        label: 'KIOÑA',
+        value: '',
+        type: 'text',
+        // validation: {
+          required: false,
+          // minLength: 3,
+          maxLength: 1,
+          id: 'email',
+          email:true
       },
-    },
+
+ 
    
 
   };
